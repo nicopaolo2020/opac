@@ -19,7 +19,7 @@ import { environment } from 'src/environments/environment';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    AngularFireModule.initializeApp(environment.firebaseConfig),
+    AngularFireModule.initializeApp(environment.firebaseConfig, 'opacscc'),
     AngularFireAuthModule,
     AngularFireStorageModule,
     AngularFirestoreModule,
