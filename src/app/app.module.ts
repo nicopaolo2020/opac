@@ -45,7 +45,7 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
     BrowserModule,
     RouterModule.forRoot([]),
     AppRoutingModule,
-    AngularFireModule.initializeApp(environment.firebaseConfig, 'opacscc'),
+    AngularFireModule.initializeApp(environment.firebaseConfig),
     AngularFireAuthModule,
     AngularFireStorageModule,
     AngularFirestoreModule,
