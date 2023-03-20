@@ -1,0 +1,60 @@
+.top-header {
+    background-color: #9e0000;
+    color: #fff;
+    font-weight: 500;
+}
+
+.top-header .col-lg-6 a {
+    color: #fff;
+    font-weight: 500;
+ }
+
+.top-header .col-lg-6:first-child {
+    padding: 5px 0px;
+}
+
+.top-header .col-lg-6 {
+    padding-left: 0;
+    padding-right: 0;
+}
+.top-header .col-lg-6 .nav-pills>li {
+    float: right;
+}
+
+.top-header .col-lg-6 ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.top-header .col-lg-6 ul li a:hover, .top-header .col-lg-6 a:hover {
+    color: #9a9696;
+    text-decoration: none;
+}
+
+.top-header .col-lg-6 .nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.top-header .col-lg-6 .nav .dropdown-menu>li>a {
+   color: #333 !important;
+}
+
+.top-header .col-lg-6 .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    background-color: transparent;
+    border-color: #337ab7;
+}
+
+.top-header .col-lg-6 .nav>li>a {
+    padding: 5px 15px;
+    display: inline-block;
+}
+
+.top-header .col-lg-6 .nav>li:after {
+    content: "|";
+    color: #f3e5ae;
+}
+
+.top-header .col-lg-6 .nav>li:first-child:after {
+    content: none;
+}
