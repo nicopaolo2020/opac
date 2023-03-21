@@ -1,0 +1,35 @@
+.banner {
+    background-color: #a62c3a!important;
+}
+
+.position-absolute {
+    position: absolute!important;
+}
+
+.position-relative {
+    position: relative!important;
+}
+
+.top-0 {
+    top: 0!important;
+}
+
+.end-0 {
+    right: 0!important;
+}
+
+.bottom-0 {
+    bottom: 0!important;
+}
+
+.me-10 {
+    margin-right: 4.5rem!important;
+}
+
+.start-0 {
+    left: 0!important;
+}
+
+.overflow-hidden {
+    overflow: hidden!important;
+}
