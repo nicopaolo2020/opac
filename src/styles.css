@@ -123,6 +123,20 @@ a.btn {
   margin-right: 4.5rem!important;
 }
 
+.my-10 {
+  margin-top: 6.5rem!important;
+  margin-bottom: 6.5rem!important;
+}
+
+.border-white-10 {
+  opacity: 1;
+  border-color: rgba(255,255,255,.1)!important;
+}
+
+.border-top {
+  border-top: 2.8px solid rgba(255,255,255,.1)!important;
+}
+
 .start-0 {
   left: 0!important;
 }
@@ -147,22 +161,22 @@ li.dropdown.open ul.dropdown-menu .divider {
 }
 
 .banner.position-relative h1.mb-5 {
-  color: #e6e7ee;
+  color: #f9f5e8;
   font-weight: 700;
   font-size: 55px;
   margin-bottom: 4rem;
 }
 
 span.typed-words {
-  color: #b8b9be;
+  color: #f9f5e8 ;
 }
 
 span.typed-cursor {
-  color: #b8b9be;
+  color: #f9f5e8 ;
 }
 
 span.typed-cursor--blink {
-  color: #b8b9be;
+  color: #f9f5e8 ;
 }
 
 .typed-cursor{
@@ -186,8 +200,8 @@ span.typed-cursor--blink {
 }
 
 .content-space-2 {
-  padding-top: 9rem!important;
-  padding-bottom: 9rem!important;
+  padding-top:10rem!important;
+  padding-bottom:10rem!important;
 }
 
 .banner-text-left {
@@ -289,6 +303,36 @@ p.lead {
 .mx-w9 {
   max-width: 900px;
 }
+
+
+.scc {
+  background-color: #f9f5e8!important;
+}
+
+.scc-logo {
+  background-color: #fff;
+  border-radius: 140px;
+  box-shadow: 3px 3px 6px #372e30, -3px -3px 6px #e8e2e3;
+  width: 153px;
+  margin-right: 20px;
+  position: relative;
+  top: 15px;
+
+}
+
+.scc-banner.mx-auto {
+  max-width: 700px;
+}
+
+.scc-name{
+  height: 70px;
+  margin: auto 0;
+  filter: drop-shadow(3px 2px 3px #d4d0d1);
+}
+.text-center.scc-img {
+  display: flex;
+}
+
 @keyframes section-title-run{
   0% {left: 0; } 50% { left : 145px; } 100% { left: 0; }
 }

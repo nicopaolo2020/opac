@@ -93,15 +93,3 @@
   padding: 12px;
   border-radius: 50px;
 }
-
-.scc {
-  background-color: rgba(241,185,128,.1)!important;
-}
-
-.scc-logo img {
-  position: relative;
-  top: 20px;
-  background-color: #fff;
-  border-radius: 90px;
-  box-shadow: 3px 3px 6px #372e30, -3px -3px 6px #e8e2e3;
-}
