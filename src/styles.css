@@ -217,7 +217,7 @@ p.lead {
 
 .banner-text-left .lead {
   line-height: 1.5;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .d-none {
@@ -286,7 +286,7 @@ p.lead {
   padding-bottom: 1rem !important;
 }
 .mb-5 {
-  margin-bottom: 3rem !important;
+  margin-bottom: 5rem !important;
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
@@ -307,6 +307,7 @@ p.lead {
 
 .scc {
   background-color: #f9f5e8!important;
+  z-index: 1;
 }
 
 .scc-logo {
@@ -320,6 +321,10 @@ p.lead {
 
 }
 
+.h-100 {
+  height: 100%!important;
+}
+
 .scc-banner.mx-auto {
   max-width: 700px;
 }
@@ -331,6 +336,11 @@ p.lead {
 }
 .text-center.scc-img {
   display: flex;
+}
+
+.justify-content-end {
+  -ms-flex-pack: end!important;
+  justify-content: flex-end!important;
 }
 
 @keyframes section-title-run{
@@ -349,6 +359,11 @@ p.lead {
   0% { left: 50%; margin-left: -75px; } 50% { left : 50%; margin-left: 45px; } 100% { left: 50%; margin-left: -75px; }
 }
 
+@media (min-width: 768px) {
+  .p-lg-7 {
+    padding: 3rem!important;
+  }
+}
 
 @media (min-width: 768px) {
   .d-md-none {
@@ -356,6 +371,16 @@ p.lead {
   }
   .d-md-block {
       display: block!important;
+  }
+  .align-items-md-center {
+    -ms-flex-align: center!important;
+    align-items: center!important;
+  }
+  .mb-md-0 {
+    margin-bottom: 0!important;
+  }
+  .p-md-5 {
+    padding: 2rem!important;
   }
 }
 

@@ -2,9 +2,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 100%;
-  box-shadow: 3px 3px 6px #372e30, -3px -3px 6px #6998ab;
-  border-color: #adadad33;
+  /* height: 100%; */
 }
 
 .banner-half-end>* {
@@ -41,6 +39,8 @@
   z-index: 1;
   position: relative;
   height: 480px;
+  box-shadow: 3px 3px 6px #372e30, -3px -3px 6px #6998ab;
+  border-color: #adadad33;
   /* margin-bottom: 7%; */
 }
    
@@ -92,4 +92,13 @@
   border-color: #adadad33;
   padding: 12px;
   border-radius: 50px;
+}
+
+.position-relative.img-left.mb-9 {
+  height: 500px;
+  background-color: #6998ab;
+}
+
+.section-title.text-center.position-relative.pb-3.mb-5 h1 {
+  color: #6998ab;
 }
